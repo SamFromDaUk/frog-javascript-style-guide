@@ -1,13 +1,13 @@
 {
-  "name": "airbnb-style",
+  "name": "frog-javascript-style-guide",
   "version": "1.0.0",
-  "description": "A mostly reasonable approach to JavaScript.",
+  "description": "A mostly reasonable approach to JavaScript.  Adapted for Frog from Airbnb's style guide.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript.git"
+    "url": "https://github.com/frogasia-sdn-bhd/frog-javascript-style-guide.git"
   },
   "keywords": [
     "style guide",
@@ -17,7 +17,7 @@
   "author": "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/frogasia-sdn-bhd/frog-javascript-style-guide/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript"
+  "homepage": "https://github.com/frogasia-sdn-bhd/frog-javascript-style-guide/issues"
 }
