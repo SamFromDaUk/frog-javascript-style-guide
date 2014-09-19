@@ -1426,7 +1426,7 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
 
 ## Contributors
 
-  - [View Contributors](https://github.com/frogasia-sdn-bhd/frog-javascript-style-guide/graphs/contributors)
+  - [View Contributors](https://github.com/frogasia/frog-javascript-style-guide/graphs/contributors)
 
 
 ## How To Contribute
