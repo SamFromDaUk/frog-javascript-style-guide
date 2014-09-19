@@ -31,6 +31,7 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
   1. [jQuery](#jquery)
   1. [ECMAScript 5 Compatibility](#ecmascript-5-compatibility)
   1. [Testing](#testing)
+  1. [Extending Native Prototypes](#extending-native-prototypes)
   1. [Performance](#performance)
   1. [Resources](#resources)
   1. [The JavaScript Style Guide Guide](#the-javascript-style-guide-guide)
@@ -315,7 +316,6 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
 **[⬆ back to top](#table-of-contents)**
 
 
-
 ## Properties
 
   - Use dot notation when accessing properties.
@@ -547,7 +547,6 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
   - For more information refer to [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting) by [Ben Cherry](http://www.adequatelygood.com/)
 
 **[⬆ back to top](#table-of-contents)**
-
 
 
 ## Conditional Expressions & Equality
@@ -844,6 +843,7 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
     ```
 
 **[⬆ back to top](#table-of-contents)**
+
 
 ## Commas
 
@@ -1330,6 +1330,18 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
 ## Testing
 
   - **Yup.** We use [QUnit](http://qunitjs.com/)
+
+**[⬆ back to top](#table-of-contents)**
+
+
+## Extending Native Prototypes
+
+  - **Don't do it.**
+
+  ```javascript
+  // bad
+  Array.prototype.count = function (value) { return 4; };
+  ```
 
 **[⬆ back to top](#table-of-contents)**
 
