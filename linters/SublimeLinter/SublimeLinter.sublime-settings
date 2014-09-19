@@ -26,10 +26,7 @@
       "jquery": true,
 
       "predef": [
-        "Frog",
-        "Achieve",
-        "Mylibrary",
-        "Me"
+        "Frog"
       ],
 
       /*
