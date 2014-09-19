@@ -600,14 +600,14 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
 
 ## Blocks
 
-  - Use braces with all multi-line blocks.
+  - Use braces with all blocks, and make blocks multi-line
 
     ```javascript
     // bad
     if (test)
         return false;
 
-    // good
+    // bad
     if (test) return false;
 
     // good
