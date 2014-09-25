@@ -1,4 +1,5 @@
-#  Frog JavaScript Style Guide() {
+#  Frog JavaScript Style Guide [![GitHub version](https://badge.fury.io/gh/frogasia%2Ffrog-javascript-style-guide.svg)](http://badge.fury.io/gh/frogasia%2Ffrog-javascript-style-guide)
+
 
 *A mostly reasonable approach to JavaScript*.
 

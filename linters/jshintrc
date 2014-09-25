@@ -11,7 +11,8 @@
   "jquery": true,
 
   "predef": [
-    "Frog"
+    "Frog",
+    "steal"
   ],
 
   /*
