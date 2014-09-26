@@ -1,4 +1,10 @@
 /**
+ * Frog JavaScript Style Guide
+ * v1.0.1
+ *
+ * https://github.com/frogasia/frog-javascript-style-guide
+ * ========================================================
+ *
  * Frog JSHint settings for use with SublimeLinter and Sublime Text 2.
  *
  *   1. Install SublimeLinter at https://github.com/SublimeLinter/SublimeLinter
