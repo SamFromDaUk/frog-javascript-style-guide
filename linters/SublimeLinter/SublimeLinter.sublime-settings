@@ -1,6 +1,6 @@
 /**
  * Frog JavaScript Style Guide
- * v1.1.0
+ * v1.2.0
  *
  * https://github.com/frogasia/frog-javascript-style-guide
  * ========================================================
@@ -91,8 +91,9 @@
       // Prohibit use of explicitly undeclared variables.
       "undef": true,
 
-      // Warn when variables are defined but never used.
-      "unused": true,
+      // Warn when variables are defined but never used (but not when function
+      // arguments are not used).
+      "unused": "vars",
 
       // Enforce use of curly brackets with blocks
       "curly": true,
