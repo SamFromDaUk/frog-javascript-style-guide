@@ -1,6 +1,6 @@
 /**
  * Frog JavaScript Style Guide
- * v1.0.1
+ * v1.1.0
  *
  * https://github.com/frogasia/frog-javascript-style-guide
  * ========================================================
@@ -32,7 +32,29 @@
       "jquery": true,
 
       "predef": [
-        "Frog",
+        //===GENERATED CONTENT HOOK - DO NOT REMOVE===
+    "About", "Agreementreport", "Analytics", "App",
+    "Assignment", "Bigideas", "Bigplanning", "Book",
+    "Bookshelf", "Britannicaadvanced", "Britannicafoundation", "Britannicaimagequest",
+    "Britannicaintermediate", "Classcharts", "Classroommonitor", "Clipbank",
+    "Clipboard", "Configmanager", "Container", "Cookbook",
+    "Courses", "Dataviewer", "Discover", "Elesapians",
+    "Elesapianslite", "Espresso", "Feedback", "Filter",
+    "Forms", "Frog", "Frogplay", "Frogstore",
+    "Frogstoreapproval", "Frogui", "Gcsepod", "Groups",
+    "Help", "Iamlearning", "Iamlearninglearningstyles", "Iamlearninglearningstylesreport",
+    "J2esuite", "Jmvcdoc", "Kerboodle", "Learningstylesreport",
+    "Lib", "Literacyplanet", "Loading", "Markbook",
+    "Mi", "Microsoft", "Mls", "Msxml2",
+    "Mxui", "Myawards", "Mychildswork", "Mycourses",
+    "Oliver", "Os", "Passwordreset", "Planetsherston",
+    "Preferences", "Preview", "Purplemash", "Quicklinks",
+    "Quizbuilder", "Quizplayer", "Reader", "Recorder",
+    "Resources", "Sample", "Selenium", "Sitemanager",
+    "Sites", "Sportingnation", "Systempreferences", "Tenmonkeys",
+    "Tenticks", "Uploader", "Users", "Vivo",
+    "Vlebooks", "Wrapper",
+        //===END GENERATED CONTENT HOOK - DO NOT REMOVE===
         "steal"
       ],
 
