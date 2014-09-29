@@ -1,6 +1,6 @@
 {
   /* Frog JavaScript Style Guide
-   * v1.2.0
+   * v1.3.0
    *
    * https://github.com/frogasia/frog-javascript-style-guide
    * ========================================================
@@ -48,10 +48,6 @@
    * ENFORCING OPTIONS
    * =================
    */
-
-  // Force all variable names to use either camelCase style or UPPER_CASE
-  // with underscores.
-  "camelcase": true,
 
   // Prohibit use of == and != in favor of === and !==.
   "eqeqeq": true,

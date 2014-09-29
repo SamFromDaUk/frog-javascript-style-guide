@@ -1038,7 +1038,10 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
     }
     ```
 
-  - Use camelCase when naming objects, functions, and instances
+  - Use camelCase when naming objects, functions, and instances.  The included linters will not enforce camelCase, as our APIs work with
+  underscore-separated identifiers, which JSHint would complain about if enforced..  Ideally, JSHint would support enforcing
+  camelCase only for variables, and thus allow them in object literals, in a similar fashion to how the
+  ['unused' option can be scoped just to variables](http://jshint.com/docs/options/#unused).
 
     ```javascript
     // bad
