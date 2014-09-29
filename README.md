@@ -769,6 +769,68 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
     });
     ```
 
+  - Place 1 space between if, for, while, etc statements and their parentheses
+
+  ```javascript
+  // bad
+  if(arr.length) {
+      // ...stuff...
+  }
+
+  // bad
+  for(var i = 0; i < 10; i++) {
+      // ...stuff...
+  }
+
+  // good
+  if (arr.length) {
+      // ...stuff...
+  }
+
+  // good
+  for (var i = 0; i < 10; i++) {
+      // ...stuff...
+  }
+  ```
+
+  - Place 1 space after an object literal's property name, after the colon.  Do not place a space *before* the colon.
+
+  ```javascript
+  // bad
+  var myObject = {
+      something:1
+  };
+
+  // bad
+  var yourObject = {
+      something : 1
+  };
+
+  // good
+  var myObject = {
+      something: 1
+  };
+  ```
+
+  - Function parameters should have a single space after each comma, and no space after the opening bracket or before the closing bracket
+
+  ```javascript
+  // bad
+  function (something,something,something,darkside) {
+      // ...stuff...
+  }
+
+  // bad
+  function ( something, something, something, darkside ) {
+      // ...stuff...
+  }
+
+  // good
+  function (something, something, something, darkside) {
+      // ...stuff...
+  }
+  ```
+
   - Set off operators with spaces.
 
     ```javascript
