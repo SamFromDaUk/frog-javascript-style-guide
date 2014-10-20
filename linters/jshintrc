@@ -1,6 +1,6 @@
 {
   /* Frog JavaScript Style Guide
-   * v1.3.0
+   * v1.4.0
    *
    * https://github.com/frogasia/frog-javascript-style-guide
    * ========================================================
@@ -79,9 +79,6 @@
 
   // Enforce use of curly brackets with blocks
   "curly": true,
-
-  // One day, we'll stop supporting IE8.  Until that day...
-  "es3": true,
 
   // Prohibit native prototype extensions
   "freeze": true,
