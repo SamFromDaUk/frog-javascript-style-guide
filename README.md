@@ -87,22 +87,6 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
     var item = {};
     ```
 
-  - Don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61)
-
-    ```javascript
-    // bad
-    var superman = {
-        default: { clark: 'kent' },
-        private: true
-    };
-
-    // good
-    var superman = {
-        defaults: { clark: 'kent' },
-        hidden: true
-    };
-    ```
-
   - Use readable synonyms in place of reserved words.
 
     ```javascript
@@ -1197,8 +1181,6 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
     };
     ```
 
-  - **Note:** IE8 and below exhibit some quirks with named function expressions.  See [http://kangax.github.io/nfe/](http://kangax.github.io/nfe/) for more info.
-
   - Indicate pseudo-constants by using an uppercase, underscore-separated name
 
   ```javascript
@@ -1389,7 +1371,6 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
 ## ECMAScript 5 Compatibility
 
   - Refer to [Kangax](https://twitter.com/kangax/)'s ES5 [compatibility table](http://kangax.github.com/es5-compat-table/)
-  - Don't forget that we still support IE8
 
 **[⬆ back to top](#table-of-contents)**
 
