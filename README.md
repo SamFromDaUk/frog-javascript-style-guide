@@ -1210,6 +1210,9 @@ For reference, we use version 3.2 of JMVC, the documentation for which can be fo
       isFiledrop: !(activityModel.type === 'Text Activity')
   });
   ```
+
+  - The linters will enforce a limit of 100 characters.
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Accessors
